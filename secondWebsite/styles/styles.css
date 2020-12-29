@@ -3,7 +3,7 @@ body {
   font-family: Cooper Hewitt;
   font-size: 16px;
   background-color:grey;
-  color: #ffffff;
+  color:hotpink;
 }
 
 a {
@@ -22,6 +22,7 @@ h1 {
   font-size: 24px;
   /* margins are the go to for when we want to create space between elements*/
   margin-bottom: 5px;
+
 }
 
 section {
@@ -58,6 +59,7 @@ footer {
   position: fixed;
   bottom: 20px;
   left: 20px;
+  color: hotpink;
 }
 
 footer a {
@@ -65,5 +67,5 @@ footer a {
 }
 
 a:hover {
-  color: pink;
+  color: grey;
 }
