@@ -11,9 +11,10 @@ a {
   text-decoration: none;
 }
 
+
 section {
-  height: 200px;
+  /* vh stands for viewPort height which will be relative to the height of the browser window */
+  height: vh;
   background-image: url("/secondWebsite/assets/images/image1.jpg");
   background-size: cover;
 }
-
