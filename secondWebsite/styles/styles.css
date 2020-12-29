@@ -2,7 +2,7 @@
 body {
   font-family: Cooper Hewitt;
   font-size: 16px;
-  background-color: #004d96;
+  background-color:grey;
   color: #ffffff;
 }
 
@@ -65,5 +65,5 @@ footer a {
 }
 
 a:hover {
-  color: #dddddd;
+  color: pink;
 }
