@@ -1,0 +1,18 @@
+/* Body applies all the styles to the page */
+body {
+  font-family: Cooper Hewitt;
+  font-size: 16px;
+  background-color: #004d96;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  height: 200px;
+  background-image: url("assets/image1.jpg");
+}
+
