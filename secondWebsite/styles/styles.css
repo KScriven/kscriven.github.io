@@ -14,7 +14,7 @@ a {
 
 section {
   /* vh stands for viewPort height which will be relative to the height of the browser window */
-  height: vh;
+  height: 100vh;
   background-image: url("/secondWebsite/assets/images/image1.jpg");
   background-size: cover;
 }
