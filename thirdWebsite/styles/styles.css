@@ -33,9 +33,13 @@ section {
   padding: 40px;
 }
 
-.image {
+section {
     padding: 0;
-  }
+}
+
+.img {
+  width: 100%;
+}
 
 
 h2 {
