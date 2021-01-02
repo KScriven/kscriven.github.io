@@ -5,7 +5,7 @@ body {
   font-size: 18px;
   color: #ffffff;
   background-image: url('/thirdWebsite/assets/images/background.svg');
-  width: 640px;
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
@@ -25,7 +25,13 @@ nav {
 nav a {
   color: #ffffff;
   text-decoration: none;
-  margin-right: 15px;
+  margin: 0 15px 0 0;
+  border-bottom: 2px solid #f05d5d;
+}
+
+nav a:hover {
+  color: #5000ff;
+  border-bottom: 2px solid #ffffff;
 }
 
 section {
@@ -35,9 +41,8 @@ section {
 
 section img{
     padding: 0;
-    width:100%;
+    width: 100%;
 }
-
 
 h2 {
   font-size: 32px;
@@ -68,4 +73,29 @@ blockquote {
 .contact a:hover {
  border-bottom: solid 2px #f05d5d;
  padding-bottom: 1px;
+}
+
+/* below a screen size */
+@media (max-width: 740px) {
+  body {
+    padding-top: 0px;
+    font-size: 16px;
+  }
+
+  /* these styles will be applied to all */
+  h2, blockquote {
+    font-size: 24px;
+  }
+
+  nav a {
+    display: block;
+  }
+
+  nav a:hover {
+    border: none;
+  }
+
+  section {
+    padding: 5px 20px;
+  }
 }
