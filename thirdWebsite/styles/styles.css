@@ -82,6 +82,10 @@ blockquote {
     font-size: 16px;
   }
 
+  header {
+    padding: 15px;
+  }
+
   /* these styles will be applied to all */
   h2, blockquote {
     font-size: 24px;
