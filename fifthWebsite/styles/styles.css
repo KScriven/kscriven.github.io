@@ -1,0 +1,84 @@
+body {
+  font-family: Work Sans;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #000;
+
+  /* assists with header visibility */
+  padding-top: 104px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-right: 20px 20px;
+}
+
+header h1 {
+  width: 64px;
+}
+
+header nav a {
+  margin-left: 10px;
+}
+
+.selected {
+  padding-bottom: 3px;
+  border-bottom: solid #fff 2px;
+}
+
+.photos {
+  text-align: center;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo {
+  /* inline-block gives us the best of both inline and block elements allowing us to
+  stack them side by side and also align our elements vertically in the row */
+  width: 320px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.small {
+  width: 220px;
+}
+
+.large {
+  width: 350px;
+}
+
+footer {
+  overflow: hidden;
+  padding: 20px;
+}
+
+footer p {
+  float: left;
+}
+
+footer nav {
+  padding-top: 21px;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav a {
+  width: 16px;
+  margin-left: 5px;
+  display: inline-block;
+}
