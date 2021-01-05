@@ -7,6 +7,7 @@ body {
   /* we add some padding top to create the space
   for our fixed header to sit inside of */
   padding-top: 104px;
+  max-width: 1080px;
 }
 
 a {
@@ -39,6 +40,10 @@ header {
 header h1 {
   /*   float: left; */
   width: 64px;
+}
+
+header nav {
+  margin: 30px;
 }
 
 header nav a {
