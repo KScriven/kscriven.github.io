@@ -16,4 +16,7 @@ New Content: [Multi-column display website](/fourthWebsite/index.html)
 Date: 4th Jan December 2021
 New Content: [Introduction to Flexbox and Grid layouts -> simple webpage](/fifthWebsite/index.html)
 
+Date: 5th Jan December 2021
+New Content: [Single site with grid layouts and some JS ](/sixthWebsite/index.html)
+
 
