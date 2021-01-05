@@ -1,0 +1,26 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  padding: 10px;
+}
+
+header {
+  border-top: 5px solid #e5ec1f;
+  background-color: #000;
+}
+
+header h1 {
+  color: #fff;
+}
+
+
+.wrap nav a {
+  text-decoration: none;
+}
+
+nav a img {
+  color: grey;
+}
