@@ -137,9 +137,10 @@ header nav a {
 }
 
 @media (max-width: 860px) {
+    
     .hero {
-    padding: 55px 0 60px 0;
-    margin-bottom: 15px;
+      padding: 55px 0 60px 0;
+      margin-bottom: 15px;
     }
 
     .container {
@@ -150,5 +151,51 @@ header nav a {
     .product {
       width: 50%;
     }
+
+}
+
+@media (max-width: 770px) {
+  
+  .hero {
+    background-image: none;
+    background-color: #bfbfb7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .intro {
+    max-width: none;
+  }
+
+}
+
+@media (max-width: 540px) {
+  
+  .intro h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  
+  body {
+    font-size: 16px;
+  }
+ 
+  .product {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
 }
