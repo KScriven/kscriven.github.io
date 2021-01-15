@@ -20,7 +20,6 @@ header .container {
   align-items: center;
 }
 
-
 header h1 {
   width: 75px;
 }
@@ -112,6 +111,7 @@ header nav a {
   height: 100%;
   left: 0;
   top: 0;
+  transition: opacity 0.5s cubic-bezier(.22,.61,.36,1);
 }
 
 .product:hover .overlay {
@@ -131,4 +131,24 @@ header nav a {
 .product p {
   font-size: 36px;
   padding-left: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 860px) {
+    .hero {
+    padding: 55px 0 60px 0;
+    margin-bottom: 15px;
+    }
+
+    .container {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .product {
+      width: 50%;
+    }
+
 }
