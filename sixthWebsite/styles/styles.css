@@ -71,6 +71,14 @@ header nav a {
   margin: 0 0 20px 0;
 }
 
+.filters li {
+  display: inline;
+}
+
+.show-filters {
+  display: none;
+}
+
 .filters a {
   text-decoration:  none;
   color: #000;
@@ -84,10 +92,9 @@ header nav a {
   padding-bottom: 1px;
 }
 
-
-/* .products {
-  margin-bottom: 40px;
-} */
+body ul {
+  padding-left: 0px;
+}
 
 .products .container {
   display: flex;
@@ -134,6 +141,10 @@ header nav a {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.filters .show-filters {
+  color:  #BFBFB7;
 }
 
 @media (max-width: 860px) {
@@ -198,4 +209,16 @@ header nav a {
     margin-bottom: 20px;
   }
 
+  .filters li,  .show-filters{
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .show-filters {
+    margin-bottom: 3px;
+  }
+
+  .filters-list {
+    display: none;
+  }
 }
