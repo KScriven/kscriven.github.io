@@ -7,16 +7,19 @@ New Content: [Simple primary html explanations on headers, elements, tags and co
 Date: 29th December 2020
 New Content: [Single page website with parallax scrolling](/secondWebsite/index.html) 
 
-Date: 1st Jan December 2021
+Date: 1st Jan 2021
 New Content: [Responsive design in single page website](/thirdWebsite/index.html)
 
-Date: 3rd Jan December 2021
+Date: 3rd Jan 2021
 New Content: [Multi-column display website](/fourthWebsite/index.html)
 
-Date: 4th Jan December 2021
+Date: 4th Jan 2021
 New Content: [Introduction to Flexbox and Grid layouts -> simple webpage](/fifthWebsite/index.html)
 
-Date: 5th Jan December 2021
+Date: 5th Jan 2021
 New Content: [Single site with grid layouts and some JS ](/sixthWebsite/index.html)
+
+Date: 17th Jan 2021
+New Content: [Single site with jQuery and JS ](/seventhWebsite/index.html)
 
 
