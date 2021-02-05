@@ -1,0 +1,159 @@
+body {
+  font-family: Biryani;
+  font-size: 16px;
+  line-height: 1.2;
+  color: black;
+
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* will position container so it is in the middle of the page */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #F9CFDF;
+  width: 400px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  /* this will hide the menu off the screen */
+  transform: translateX(-100%);
+}
+
+nav {
+  position: absolute;
+  left: 65px;
+  top: 50%;
+  /* We use a transform to move the nav up by 50% of its height, which 
+  always stays relative to the size of our box */
+  transform: translateY(-50%);
+}
+
+nav a {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+
+.menu {
+  transition: transform 0.5s ease;
+  z-index: 2;
+}
+
+
+.menu:hover {
+  transition: transform 0.5s ease;
+}
+
+.natural {
+  padding-right: 260px;
+  position: relative;
+  
+}
+
+.natural img {
+  max-width: 100%;
+}
+
+.natural h2 {
+  font-size: 62px;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
+.natural .copy {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  width: 360px;
+  transform: translateY(-50%);
+}
+
+.one-thing {
+  padding-left: 360px;
+  position: relative;
+}
+
+.one-thing img {
+  max-width: 100%;
+}
+
+.one-thing .copy {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 480px;
+}
+
+.one-thing h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.one-thing p {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.look-book {
+  padding: 220px 20px 180px 20px;
+  background-image: url('../assets/images/image_3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.look-book h2 {
+  font-size: 64px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.natural img, .natural h2 {
+  max-width: 100%;
+  transition: transform 0.5 ease;
+}
+
+.natural:hover {
+  transform: rotate(-5deg);
+}
+
+.natural:hover h2 {
+  transform: scale(1.15)
+}
+
+.look-book h2 {
+  transition: all 0.5s ease;
+}
+
+.look-book:hover h2 {
+  transform: scale(0.8);
+  color: rgba(255,255,255,0,8);
+}
