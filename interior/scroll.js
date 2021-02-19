@@ -25,7 +25,7 @@ $(document).on('scroll', function () {
   let documentHeight = $(document).height()
   let difference = documentHeight - windowHeight
   
-  let percentage = 100 * pixels / difference
+  let percentage = 100 * pixelsFromTop / difference
   
   $('div.progress div.bar').css('width', percentage + '%')
  
