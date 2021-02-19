@@ -21,12 +21,9 @@ $(document).on('scroll', function () {
     $('body').css('background-color', 'cdccc7')
   }
 
-  let windowHeight = $(window).height()
-  let documentHeight = $(document).height()
-  let difference = documentHeight - windowHeight
-  
+  let difference = $(document).height() - $(window).height()
   let percentage = 100 * pixelsFromTop / difference
-  
+
   $('div.progress div.bar').css('width', percentage + '%')
  
 })  
