@@ -1,6 +1,3 @@
-# Wait to see what happens here
-
-## Commencing to start from basics
 Date: 29th December 2020
 Website Content: [Basic html explanations on headers, elements, tags and content](/basic/index.html) 
 
