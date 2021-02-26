@@ -25,4 +25,10 @@ Website Content: [Single site with jQuery and JS ](/clothing/index.html)
 Date: 19th Feb 2021
 Website Content: [Scroll effect with jQuery](/interior/index.html)
 
+Date: 23rd Feb 2021
+Website Content: [Simple typescript app](/typescript/src/index.ts)
+
+Date: 26th Feb 2021
+Website Content: [Lightbox effect app](/lightbox/index.html)
+
 

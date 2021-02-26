@@ -21,6 +21,7 @@ $(document).on('scroll', function () {
     $('body').css('background-color', 'cdccc7')
   }
 
+
   let difference = $(document).height() - $(window).height()
   let percentage = 100 * pixelsFromTop / difference
 
