@@ -6,19 +6,3 @@
 body {
   background-color: #a6a6a6;
 }
-
-div.wrapper header h1 a {
-  color: #fff;
-}
-
-div.wrapper header p {
-    color: #cc727b;
-  }
-
-div.wrapper header p.view a {
-  color: #fff;
-}
-
-div.wrapper section p a {
-  color: #fff;
-}
