@@ -4,5 +4,6 @@
 @import "{{ site.theme }}";
 
 body {
+  font-family: 'Poppins', sans-serif;
   background-color: #a6a6a6;
 }
