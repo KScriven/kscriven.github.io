@@ -7,14 +7,18 @@ body {
   background-color: #a6a6a6;
 }
 
-header h1 a {
+div.wrapper header h1 a {
   color: #fff;
 }
 
-p a {
-    color:#fff;
+div.wrapper header p {
+    color: #cc727b;
   }
 
-a {
-  color: #666600
+div.wrapper header p.view a {
+  color: #fff;
+}
+
+div.wrapper section p a {
+  color: #fff;
 }
