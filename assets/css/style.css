@@ -7,13 +7,13 @@ body {
   background-color: #a6a6a6;
 }
 
-h1 a {
+header h1 a {
   color: #fff;
 }
 
-p {
-  color:#fff;
-}
+p a {
+    color:#fff;
+  }
 
 a {
   color: #666600
