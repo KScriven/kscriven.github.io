@@ -4,9 +4,13 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #333;
+  background-color: #a6a6a6;
 }
 
-h1, h2 {
-  color: beige;
+p {
+  color:#fff;
+}
+
+a {
+  color: #666600
 }
