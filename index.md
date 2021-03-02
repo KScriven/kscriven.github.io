@@ -1,31 +1,3 @@
-Date: 29th December 2020
-[Basic html explanations on headers, elements, tags and content](/basic/index.html) 
-
-Date: 29th December 2020
-[Single page website with parallax scrolling](/photography/index.html) 
-
-Date: 1st Jan 2021
-[Responsive design in single page website](/coffee/index.html)
-
-Date: 3rd Jan 2021
-[Multi-column display website](/flowers/index.html)
-
-Date: 4th Jan 2021
-[Introduction to Flexbox and Grid layouts -> simple webpage](/artgallery/index.html)
-
-Date: 5th Jan 2021
-[Single site with grid layouts and some JS ](/onlineshop/index.html)
-
-Date: 5th Feb 2021
-[Single site with jQuery and JS ](/clothing/index.html)
-
-Date: 19th Feb 2021
-[Scroll effect with jQuery](/interior/index.html)
-
-Date: 23rd Feb 2021
-[Simple typescript app](/typescript/src/index.ts)
-
-Date: 26th Feb 2021
-[Lightbox effect app](/lightbox/index.html)
+Projects[(./projects.html)]
 
 
