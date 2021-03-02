@@ -1,5 +1,3 @@
-<h1 id="hello_world">Hello World</h1>
-
 Date: 29th December 2020
 [Basic html explanations on headers, elements, tags and content](/basic/index.html) 
 
