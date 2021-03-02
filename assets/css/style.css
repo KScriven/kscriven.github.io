@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-body .main-content {
+body {
   font-family: 'Poppins'; 
 }
